@@ -1,0 +1,30 @@
+{
+  "name": "simple-product-manager",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple React application for managing products. This app allows users to perform basic CRUD (Create, Read, Update, Delete) operations on products, making it easy to add, edit, and remove product entries. It’s a great starting point for learning how to build full-stack applications with React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoryFazna/simple-product-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoryFazna/simple-product-manager/issues"
+  },
+  "homepage": "https://github.com/DoryFazna/simple-product-manager#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
